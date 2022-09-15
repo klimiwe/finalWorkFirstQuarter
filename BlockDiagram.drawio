@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Y2OGmGTfALXE5r6SNYs0" name="Страница 1">
-        <mxGraphModel dx="1493" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1323" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -69,9 +69,6 @@
                     <mxGeometry x="414" y="280" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="yes" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="19">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="16">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="NO" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="30">
