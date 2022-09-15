@@ -7,9 +7,10 @@
 
 */
 string [] array = {"Russia", "Denmark", "Kazan"};
+int maxLengthOfElemet = 3;
 PrintArray (array);
 
-string [] resultArray = ChangeArray (array);
+string [] resultArray = ChangeArray (array, maxLengthOfElemet);
 PrintArray (resultArray);
 
 void PrintArray(string [] array)
@@ -23,18 +24,18 @@ void PrintArray(string [] array)
 }
 
 
- string [] ChangeArray (string [] array)   
+ string [] ChangeArray (string [] array, int maxLengthOfElemet)   
  {
     int n=0;
 for (int i =0; i<array.Length; i++)
 {
-    if (array[i].Length<=3) {n++;}
+    if (array[i].Length<=maxLengthOfElemet) {n++;}
 }
 string [] resultArray = new string [n]; 
 int k=0;
 for (int j =0; j<array.Length; j++)
 {
-    if (array[j].Length<=3) {resultArray[k]= array[j]; k++;}
+    if (array[j].Length<=maxLengthOfElemet) {resultArray[k]= array[j]; k++;}
 }
 return resultArray;
  }
